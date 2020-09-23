@@ -11,3 +11,5 @@ public class HandoutExamples {
 
    /** Drives execution. */
    public static void main(String[] args) {
+      String sourceText = "agggcagcgggcg";
+      int k = 2;
