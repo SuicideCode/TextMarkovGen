@@ -13,3 +13,6 @@ public class HandoutExamples {
    public static void main(String[] args) {
       String sourceText = "agggcagcgggcg";
       int k = 2;
+      MarkovModel model = new MarkovModel(k, sourceText);
+      System.out.println("k = " + k + ", source text: " + sourceText);
+      System.out.println("The first kgram: " + model.getFirstKgram());
