@@ -16,3 +16,7 @@ public class HandoutExamples {
       MarkovModel model = new MarkovModel(k, sourceText);
       System.out.println("k = " + k + ", source text: " + sourceText);
       System.out.println("The first kgram: " + model.getFirstKgram());
+      System.out.println("A random kgram: " + model.getRandomKgram());
+      System.out.println("All kgrams: " + model.getAllKgrams());
+      System.out.println("The Markov model: ");
+      System.out.println(model);
