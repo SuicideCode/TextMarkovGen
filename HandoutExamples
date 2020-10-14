@@ -21,3 +21,4 @@ public class HandoutExamples {
       System.out.println("The Markov model: ");
       System.out.println(model);
    }
+}
