@@ -8,3 +8,4 @@ import java.util.Scanner;
 import java.util.Set;
 
 /**
+ * MarkovModel.java Creates an order K Markov model of the supplied source
