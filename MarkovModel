@@ -10,3 +10,7 @@ import java.util.Set;
 /**
  * MarkovModel.java Creates an order K Markov model of the supplied source
  * text. The value of K determines the size of the "kgrams" used to generate
+ * the model. A kgram is a sequence of k consecutive characters in the source
+ * text.
+ *
+ * @author     Noah Jones (nhj0004@auburn.edu)
