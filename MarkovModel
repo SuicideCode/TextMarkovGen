@@ -17,3 +17,4 @@ import java.util.Set;
  * @author     Dean Hendrix (dh@auburn.edu)
  *
  */
+public class MarkovModel {
