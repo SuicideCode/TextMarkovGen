@@ -18,3 +18,6 @@ import java.util.Set;
  *
  */
 public class MarkovModel {
+
+   // Map of <kgram, chars following> pairs that stores the Markov model.
+   private HashMap<String, String> model;
