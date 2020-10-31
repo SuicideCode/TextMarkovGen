@@ -24,3 +24,6 @@ public class MarkovModel {
 
    // add other fields as you need them ...
    //first = x
+   String x;
+
+   /**
