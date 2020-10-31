@@ -27,3 +27,6 @@ public class MarkovModel {
    String x;
 
    /**
+    * Reads the contents of the file sourceText into a string, then calls
+    * buildModel to construct the order K model.
+    *
