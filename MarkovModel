@@ -32,3 +32,5 @@ public class MarkovModel {
     *
     * DO NOT CHANGE THIS CONSTRUCTOR.
     *
+    */
+   public MarkovModel(int K, File sourceText) {
