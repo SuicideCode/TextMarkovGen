@@ -38,3 +38,4 @@ public class MarkovModel {
       try {
          String text = new Scanner(sourceText).useDelimiter("\\Z").next();
          buildModel(K, text);
+      }
