@@ -37,3 +37,4 @@ public class MarkovModel {
       model = new HashMap<>();
       try {
          String text = new Scanner(sourceText).useDelimiter("\\Z").next();
+         buildModel(K, text);
