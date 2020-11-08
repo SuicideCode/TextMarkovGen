@@ -39,3 +39,6 @@ public class MarkovModel {
          String text = new Scanner(sourceText).useDelimiter("\\Z").next();
          buildModel(K, text);
       }
+      catch (IOException e) {
+         System.out.println("Error loading source text: " + e);
+      }
