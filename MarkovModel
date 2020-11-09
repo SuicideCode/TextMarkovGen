@@ -46,3 +46,7 @@ public class MarkovModel {
 
 
    /**
+    * Calls buildModel to construct the order K model of the string sourceText.
+    *
+    * DO NOT CHANGE THIS CONSTRUCTOR.
+    *
