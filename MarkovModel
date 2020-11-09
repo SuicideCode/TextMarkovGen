@@ -42,3 +42,7 @@ public class MarkovModel {
       catch (IOException e) {
          System.out.println("Error loading source text: " + e);
       }
+   }
+
+
+   /**
