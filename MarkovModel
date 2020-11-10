@@ -55,3 +55,6 @@ public class MarkovModel {
       model = new HashMap<>();
       buildModel(K, sourceText);
    }
+
+
+   /**
