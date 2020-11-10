@@ -54,3 +54,4 @@ public class MarkovModel {
    public MarkovModel(int K, String sourceText) {
       model = new HashMap<>();
       buildModel(K, sourceText);
+   }
