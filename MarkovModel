@@ -60,3 +60,4 @@ public class MarkovModel {
    /**
     * Builds an order K Markov model of the string sourceText.
     */
+   private void buildModel(int K, String sourceText) {
