@@ -65,3 +65,6 @@ public class MarkovModel {
     // set 2 other int values to zero
     //s = a
     //z = b
+      int k = K;
+      int a = 0;
+      int b = 0;
