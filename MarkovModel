@@ -63,3 +63,5 @@ public class MarkovModel {
    private void buildModel(int K, String sourceText) {
     //reassignment of K
     // set 2 other int values to zero
+    //s = a
+    //z = b
