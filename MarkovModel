@@ -68,3 +68,8 @@ public class MarkovModel {
       int k = K;
       int a = 0;
       int b = 0;
+    //set x to start of source text 
+      x = sourceText.substring(0 , k);
+    //loop until a + b surpasses length of src txt
+      while (a + b <= sourceText.length()) {
+      //create kgram
