@@ -76,3 +76,7 @@ public class MarkovModel {
          String empt = "";
          String kg = sourceText.substring(a, a + k);
       // if kg is not present in text 
+         if (!model.containsKey(kg)) {
+         //reassignment to new int
+            int j = k;
+         //repeat with b
