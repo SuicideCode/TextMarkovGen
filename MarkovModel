@@ -73,3 +73,6 @@ public class MarkovModel {
     //loop until a + b surpasses length of src txt
       while (a + b <= sourceText.length()) {
       //create kgram
+         String empt = "";
+         String kg = sourceText.substring(a, a + k);
+      // if kg is not present in text 
