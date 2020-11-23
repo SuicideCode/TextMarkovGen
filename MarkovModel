@@ -80,3 +80,5 @@ public class MarkovModel {
          //reassignment to new int
             int j = k;
          //repeat with b
+            while (b + k < sourceText.length()) {
+               String g = sourceText.substring(a, a + j);
