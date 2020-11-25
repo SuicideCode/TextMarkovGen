@@ -82,3 +82,6 @@ public class MarkovModel {
          //repeat with b
             while (b + k < sourceText.length()) {
                String g = sourceText.substring(a, a + j);
+            //if empty 
+               if (b + k >= sourceText.length()) {
+                  empt += '\u0000';
