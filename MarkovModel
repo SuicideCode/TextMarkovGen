@@ -85,3 +85,4 @@ public class MarkovModel {
             //if empty 
                if (b + k >= sourceText.length()) {
                   empt += '\u0000';
+               }
