@@ -86,3 +86,8 @@ public class MarkovModel {
                if (b + k >= sourceText.length()) {
                   empt += '\u0000';
                }
+            //if 2 string equal
+               if (kg.equals(g)) {
+                  empt += sourceText.substring(b + j, b + j + 1);
+               }
+               b++;
