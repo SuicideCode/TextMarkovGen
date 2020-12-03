@@ -91,3 +91,5 @@ public class MarkovModel {
                   empt += sourceText.substring(b + j, b + j + 1);
                }
                b++;
+            }
+            model.put(kg, empt);
