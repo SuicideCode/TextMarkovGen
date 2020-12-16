@@ -93,3 +93,6 @@ public class MarkovModel {
                b++;
             }
             model.put(kg, empt);
+         }
+         b = 0;
+         a++;
