@@ -99,3 +99,6 @@ public class MarkovModel {
       }
    }
 
+
+   /** Returns the first kgram found in the source text. */
+   public String getFirstKgram() {
