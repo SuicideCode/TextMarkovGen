@@ -105,3 +105,8 @@ public class MarkovModel {
       return x;
    }
 
+
+   /** Returns a kgram chosen at random from the source text. */
+   public String getRandomKgram() {
+   //int for size
+   //int for counter 
