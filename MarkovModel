@@ -113,3 +113,6 @@ public class MarkovModel {
       int s = model.size();
       int z = 0;
    //call random int
+      Random rand = new Random();
+   //generate random word  of size of model
+      int index = rand.nextInt(s);
