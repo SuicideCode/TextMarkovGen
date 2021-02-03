@@ -121,3 +121,4 @@ public class MarkovModel {
       //if equal, increment 
          if (index == z) {
             return n;
+         }
