@@ -118,3 +118,6 @@ public class MarkovModel {
       int index = rand.nextInt(s);
    //loop and return new string through model
       for (String n : model.keySet()) {
+      //if equal, increment 
+         if (index == z) {
+            return n;
