@@ -116,3 +116,5 @@ public class MarkovModel {
       Random rand = new Random();
    //generate random word  of size of model
       int index = rand.nextInt(s);
+   //loop and return new string through model
+      for (String n : model.keySet()) {
