@@ -122,3 +122,7 @@ public class MarkovModel {
          if (index == z) {
             return n;
          }
+         z++;
+      }
+   //otherwise 
+      return null;
