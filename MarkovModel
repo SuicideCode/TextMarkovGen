@@ -127,3 +127,4 @@ public class MarkovModel {
    //otherwise 
       return null;
    
+   }
