@@ -128,3 +128,6 @@ public class MarkovModel {
       return null;
    
    }
+
+
+   /**
