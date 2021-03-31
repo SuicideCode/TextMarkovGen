@@ -139,3 +139,7 @@ public class MarkovModel {
    public Set<String> getAllKgrams() {
       return model.keySet();
    }
+
+
+   /**
+    * Returns a single character that follows the given kgram in the source
