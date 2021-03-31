@@ -143,3 +143,5 @@ public class MarkovModel {
 
    /**
     * Returns a single character that follows the given kgram in the source
+    * text. This method selects the character according to the probability
+    * distribution of all characters that follow the given kgram in the source
