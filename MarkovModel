@@ -150,3 +150,5 @@ public class MarkovModel {
    public char getNextChar(String kgram) {
    //generate random
       Random rand = new Random();
+      String empt = "";
+      int z = 0;
