@@ -162,3 +162,6 @@ public class MarkovModel {
          }
       }
       int q = z - 1;
+      if (!empt.equals("")) {
+         return empt.charAt(q);
+      }
