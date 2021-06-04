@@ -155,3 +155,7 @@ public class MarkovModel {
       for(String n: model.keySet()) {
          if (n.equals(kgram)) {
             empt = model.get(kgram);
+            int i = empt.length();
+            if (i > 0) {
+               z = rand.nextInt(i) + 1;
+            }
