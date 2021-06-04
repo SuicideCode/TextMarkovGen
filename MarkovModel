@@ -159,3 +159,6 @@ public class MarkovModel {
             if (i > 0) {
                z = rand.nextInt(i) + 1;
             }
+         }
+      }
+      int q = z - 1;
