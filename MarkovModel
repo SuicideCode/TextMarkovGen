@@ -165,3 +165,5 @@ public class MarkovModel {
       if (!empt.equals("")) {
          return empt.charAt(q);
       }
+      return '\u0000';
+   }
