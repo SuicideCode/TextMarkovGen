@@ -167,3 +167,6 @@ public class MarkovModel {
       }
       return '\u0000';
    }
+
+   /**
+    * Returns a string representation of the model.
