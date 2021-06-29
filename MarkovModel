@@ -170,3 +170,7 @@ public class MarkovModel {
 
    /**
     * Returns a string representation of the model.
+    * This is not part of the provided shell for the assignment.
+    *
+    * DO NOT CHANGE THIS METHOD.
+    *
