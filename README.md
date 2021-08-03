@@ -1,2 +1,2 @@
 # TextMarkovGen
-This Java applicati
+This Java application
