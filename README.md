@@ -1,2 +1,2 @@
 # TextMarkovGen
-This Java application is for text
+This Java application is for text ge
