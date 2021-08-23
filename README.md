@@ -1,2 +1,2 @@
 # TextMarkovGen
-This Java application is for text generation using Markov chains. The application g
+This Java application is for text generation using Markov chains. The application gene
