@@ -5,4 +5,4 @@ The program takes three command line arguments: a non-negative integer k, anothe
 
 With valid command line arguments, the application uses the methods of the MarkovModel class to create an order k Markov model of the sample text, select the initial kgram, and make each character selection.
 
-Please note that a few sample texts h
+Please note that a few sample texts have 
