@@ -7,4 +7,4 @@ With valid command line arguments, the application uses the methods of the Marko
 
 Please note that a few sample texts have been provided, but a large collection of public domain literary works that can be used as source texts for fun and practice is maintained by Project Gutenberg (http://www.gutenberg.org).
 
-Acknowledgments
+Acknowledgments: T
